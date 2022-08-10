@@ -24,6 +24,7 @@
   />
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet" />
+       <link rel="stylesheet" href="css/main.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,12 +32,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<style>
-  .criar{
-    font-size: 2em;
-    font-weight: bold;
-  }
-</style>
   <body>
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
@@ -136,6 +131,8 @@
             <!-- Right side toggle and nav items -->
             <!-- ============================================================== -->
             <ul class="navbar-nav float-end">
+              <a class="col-auto botao-default js-tilt" href="#" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+                <span style="transform: translateZ(20px)">Atualizar Paginá</span></a>
               <!-- ============================================================== -->
               <!-- Comment -->
               <!-- ============================================================== -->
@@ -388,6 +385,21 @@
                   ><i class="mdi mdi-chart-bar"></i
                   ><span class="hide-menu">Status</span></a
                 >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="status-integrações.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-sitemap"></i
+                  ><span class="hide-menu">Integrações</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <div class="mobi">
+                  <a class="col-auto botao-default js-tilt" href="#" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg); width: 9em;">
+                    <span style="transform: translateZ(20px)">Atualizar</span></a>
+                  </div>
               </li>
               <!-- <li class="sidebar-item">
                 <a
